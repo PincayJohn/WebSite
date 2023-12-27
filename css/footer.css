@@ -1,0 +1,78 @@
+footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #000000;
+}
+.footer {
+    width: 100%;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #ffffff;
+}
+.footer .option li {
+    font-size: 12px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.footer a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer li a:hover {
+    font-weight: bold;
+    color: #6504c6;
+}
+.footer .title-section {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer img {
+    height: 18px;
+    width: auto;
+    display: flex;
+    margin-right: 10px;
+}
+.footer .group-1{
+    align-self: center;
+    align-items: center;   
+    padding: 0px 200px 0px 0px;
+    font-size: 12px;
+}
+.footer .group-2,
+.footer .group-3,
+.footer .group-4 {
+    flex: 1;
+    align-items: center;
+    padding: 0px 10px;
+}
+.footer .group-1 .logo {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+.footer .group-1 .logo img {
+    height: 66px;
+    width: auto;
+    margin-right: 10px;
+}
+.footer .group-1 .logo .title-web p {
+    font-family: Kaushan Script, 'Source Sans Pro';
+    font-size: 21px;
+}
+.footer .group-2 li,
+.footer .group-3 a,
+.footer .group-4 li {
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+}

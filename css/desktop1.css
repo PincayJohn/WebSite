@@ -1,0 +1,144 @@
+.inicio {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.inicio .background-principal {
+  position: relative;
+  z-index: 1;
+}
+.inicio .background-principal .circle {
+  width: 330px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.inicio .background-principal .r1-band {
+  width: 295px;
+  height: auto;
+  position: absolute;
+  right: 75px;
+  top: 500px;
+}
+.inicio .background-principal .r2-band {
+  width: 480px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  top: 533px;
+}
+.inicio .background-principal .r3-band {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  top: 580px;
+}
+.inicio .background-principal .band-l2 {
+  width: 290px;
+  height: auto;
+  left: 0px;
+  position: absolute;
+  top: 584px;
+}
+.inicio .background-principal .band-l1 {
+  width: 394px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 520px;
+}
+.inicio .background-principal .slpc-1 {
+  border: none;
+  width: 420px;
+  height: auto;
+  position: absolute;
+  right: 210px;
+  top: 125px;
+  transform: rotate(-20deg);
+}
+.inicio .background-principal .botella .img-1 {
+  width: 410px;
+  height: auto;
+  position: absolute;
+  right: 200px;
+  top: 80px;
+  transform: rotate(-15deg);
+}
+.inicio .background-principal .botella .logo_img {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  right: 468px;
+  top: 330px;
+  opacity: 0.6;
+  transform: rotate(-15deg);
+}
+
+.inicio .content-inicio {
+  position: absolute;
+  left: 10%;
+  top: 23%;
+  z-index: 2;
+}
+.inicio .content-inicio a{
+  font-family: Jockey One, 'Source Sans Pro';
+  font-size: 15px;
+  text-decoration: none;
+}
+.inicio .content-inicio button {
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.inicio .content-inicio button:hover {
+  background-color: #97a8f2;
+  color: #6504c6;
+  transform: scale(1.1);
+}
+.inicio .content-inicio .pedido {
+  color: #ffffff;
+  background-color: #5e97c3;
+  font-size: 14px;
+}
+.inicio .content-inicio img {
+  height: 18px;
+  width: auto;
+  display: flex;
+  margin-right: 10px;
+}
+.inicio .content-inicio h2 {
+  font-size: 44px;
+}
+.inicio .content-inicio p {
+  font-size: 16px;
+}
+
+
+.top img{
+  height: 200px;
+  width: auto;
+  display: flex;
+  margin-right: 10px;
+}
+
+.top img{
+  height: 200px;
+  width: auto;
+  display: flex;
+  margin-right: 10px;
+}
+
+.other-links img{
+  height: 200px;
+  width: auto;
+  display: flex;
+  margin-right: 10px;
+}

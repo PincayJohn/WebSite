@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, 'Source Sans Pro';
+}
+body {
+  position: relative;
+  background-color: #eef6f3;
+}
+header {
+  position: relative;
+}
+
+.navbar nav {
+  background-color: rgba(29, 181, 190, 0.8);
+  height: 66px;
+  width: 100%;
+  padding: 40px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-links li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 15px;
+}
+.navbar .nav-links li:hover{
+  transform: scale(1.1);
+}
+.navbar .nav-links a{
+  font-family: Jockey One, 'Source Sans Pro';
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar .nav-links li a:hover{
+  color: #6504c6;
+}
+
+.navbar .nav-links button {
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.navbar .nav-links button:hover {
+  background-color: #97a8f2;
+  color: #6504c6;
+  transform: scale(1.1); 
+}
+.navbar .nav-links .home {
+  color: #ffffff;
+  background-color: rgb(56, 53, 53);
+  font-size: 15px;
+}
+.navbar .nav-links .login {
+  color: #000000;
+  background-color: #c4ff66;
+  margin-left: 15px;
+}
+.navbar .nav-links img {
+  height: 18px;
+  width: auto;
+  display: flex;
+  margin-left: 10px;
+}
+
+.navbar .logo{
+  display: flex;
+  align-items: center;
+}
+.navbar .logo img {
+  height: 66px;
+  width: auto;
+  margin-right: 10px;
+}
+.navbar .logo .title-web h1{
+  font-family: Kaushan Script, 'Source Sans Pro';
+  font-size: 21px;
+}
